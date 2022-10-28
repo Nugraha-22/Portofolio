@@ -329,6 +329,30 @@ footer p{
     
 }
 
+@media screen and (max-width:600px) {
+    .contact .box-contact form table tr td input{
+        margin-top: 10px;
+        width: 400px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+    }
+    
+    .contact .box-contact form table tr td textarea{
+        margin-top: 10px;
+        width: 400px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+    }
+    
+    .contact .box-contact form table tr td button{
+        width: 400px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #ffc400fa;
+        color: white;
+    }
+}
+
 @media screen and (max-width:575px) {
     .about .box-about .box:nth-child(1) h1{
         font-size: 34px;
@@ -337,10 +361,54 @@ footer p{
     .about .box-about .box:nth-child(1) p{
         font-size: 14px;
     }
+
+    .contact .box-contact form table tr td input{
+        margin-top: 10px;
+        width: 300px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+    }
+    
+    .contact .box-contact form table tr td textarea{
+        margin-top: 10px;
+        width: 300px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+    }
+    
+    .contact .box-contact form table tr td button{
+        width: 300px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #ffc400fa;
+        color: white;
+    }
 }
 
 @media screen and (max-width:475px) {
     header .hero h1{
         font-size: 20px;
+    }
+
+    .contact .box-contact form table tr td input{
+        margin-top: 10px;
+        width: 200px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+    }
+    
+    .contact .box-contact form table tr td textarea{
+        margin-top: 10px;
+        width: 200px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+    }
+    
+    .contact .box-contact form table tr td button{
+        width: 200px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #ffc400fa;
+        color: white;
     }
 }
