@@ -292,6 +292,7 @@ footer p{
     .about .box-about .box:nth-child(1){
         text-align: center;
         margin-top: 30px;
+        margin-right: 0;
     }
 
     .project{
@@ -389,4 +390,28 @@ footer p{
         background-color: #ffc400fa;
         color: white;
     }
+}
+
+@media screen and (max-width:411px) {
+    .contact .box-contact form table tr td input{
+        margin-top: 10px;
+        width: 300px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+    }
+    
+    .contact .box-contact form table tr td textarea{
+        margin-top: 10px;
+        width: 300px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+    }
+    
+    .contact .box-contact form table tr td button{
+        width: 300px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #ffc400fa;
+        color: white;
+    }   
 }
