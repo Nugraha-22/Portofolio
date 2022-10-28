@@ -389,26 +389,4 @@ footer p{
     header .hero h1{
         font-size: 20px;
     }
-
-    .contact .box-contact form table tr td input{
-        margin-top: 10px;
-        width: 200px;
-        padding: 10px 10px 10px 10px;
-        border-radius: 10px;
-    }
-    
-    .contact .box-contact form table tr td textarea{
-        margin-top: 10px;
-        width: 200px;
-        padding: 10px 10px 10px 10px;
-        border-radius: 10px;
-    }
-    
-    .contact .box-contact form table tr td button{
-        width: 200px;
-        padding: 10px;
-        border-radius: 10px;
-        background-color: #ffc400fa;
-        color: white;
-    }
 }
