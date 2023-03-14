@@ -27,6 +27,13 @@
       rel="stylesheet"
       href="dist/css/lightbox2-dev/dist/css/lightbox.css"
     />
+    <!-- Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- CSS -->
     <link rel="stylesheet" href="dist/css/style.css" />
   </head>
@@ -63,7 +70,7 @@
       <div class="hero">
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col animate_animated animate__bounceIn">
               <h1>Welcome To My Website Portofolio</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
@@ -85,7 +92,7 @@
     <div class="about">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col" data-aos="fade-right">
             <h1>About Me</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -96,7 +103,7 @@
               voluptas, eos aliquid doloremque minus quasi nihil! Alias, fugit!
             </p>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-right">
             <img src="assets/img/36.jpg" alt="" />
           </div>
         </div>
@@ -113,37 +120,73 @@
           </div>
           <div class="col">
             <a href="assets/img/1.jpg" data-lightbox="gallery">
-              <img src="assets/img/1.jpg" alt="gallery-1" />
+              <img
+                src="assets/img/1.jpg"
+                alt="gallery-1"
+                data-aos="flip-left"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              />
               <div class="bg-img">
                 <i class="fa-solid fa-magnifying-glass-plus"></i>
               </div>
             </a>
             <a href="assets/img/2.jpg" data-lightbox="gallery">
-              <img src="assets/img/2.jpg" alt="gallery-2" />
+              <img
+                src="assets/img/2.jpg"
+                alt="gallery-2"
+                data-aos="flip-left"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              />
               <div class="bg-img">
                 <i class="fa-solid fa-magnifying-glass-plus"></i>
               </div>
             </a>
             <a href="assets/img/3.jpg" data-lightbox="gallery">
-              <img src="assets/img/3.jpg" alt="gallery-3" />
+              <img
+                src="assets/img/3.jpg"
+                alt="gallery-3"
+                data-aos="flip-left"
+                data-aos-duration="1000"
+                data-aos-delay="500"
+              />
               <div class="bg-img">
                 <i class="fa-solid fa-magnifying-glass-plus"></i>
               </div>
             </a>
             <a href="assets/img/4.jpg" data-lightbox="gallery">
-              <img src="assets/img/4.jpg" alt="gallery-4" />
+              <img
+                src="assets/img/4.jpg"
+                alt="gallery-4"
+                data-aos="flip-left"
+                data-aos-duration="1000"
+                data-aos-delay="700"
+              />
               <div class="bg-img">
                 <i class="fa-solid fa-magnifying-glass-plus"></i>
               </div>
             </a>
             <a href="assets/img/5.jpg" data-lightbox="gallery">
-              <img src="assets/img/5.jpg" alt="gallery-5" />
+              <img
+                src="assets/img/5.jpg"
+                alt="gallery-5"
+                data-aos="flip-left"
+                data-aos-duration="1000"
+                data-aos-delay="900"
+              />
               <div class="bg-img">
                 <i class="fa-solid fa-magnifying-glass-plus"></i>
               </div>
             </a>
             <a href="assets/img/6.jpg" data-lightbox="gallery">
-              <img src="assets/img/6.jpg" alt="gallery-6" />
+              <img
+                src="assets/img/6.jpg"
+                alt="gallery-6"
+                data-aos="flip-left"
+                data-aos-duration="1000"
+                data-aos-delay="1200"
+              />
               <div class="bg-img">
                 <i class="fa-solid fa-magnifying-glass-plus"></i>
               </div>
@@ -162,7 +205,7 @@
             <h1>PROJECT</h1>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-right">
           <div class="col">
             <h3>PPDB KASIH SAYANG BUNDA</h3>
             <p>
@@ -178,7 +221,7 @@
             <img src="assets/img/12.jpg" alt="" />
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-right">
           <div class="col">
             <img src="assets/img/11.png" alt="" />
           </div>
@@ -204,7 +247,7 @@
     <!-- Contact -->
     <div class="contact">
       <div class="container">
-        <div class="row">
+        <div class="row" data-aos="zoom-in-up">
           <div class="col">
             <h1>CONTACT</h1>
             <p>
@@ -253,7 +296,11 @@
 
     <!-- JS -->
     <script src="dist/js/script.js"></script>
-
+    <!-- ASO -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- LightBox -->
     <script src="dist/css/lightbox2-dev/dist/js/lightbox-plus-jquery.js"></script>
   </body>
