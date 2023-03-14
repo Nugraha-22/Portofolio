@@ -1,7 +1,21 @@
-const menuBar = document.querySelector(".menu-bar");
-const menuNav = document.querySelector(".menu-navigation");
+// Scroll Navbar
+const navbar = document.querySelector(".navbar");
 
+window.addEventListener("scroll", () => {
+  const positionWindow = window.scrollY > 0;
+  navbar.classList.toggle("active", positionWindow);
+});
 
-menuBar.addEventListener("click", function(){
-    menuNav.classList.toggle("menu-active");
+// Hamburger
+const Hamburger = document.querySelector(".hamburger");
+
+Hamburger.addEventListener("click", () => {
+  Hamburger.classList.toggle("is-active");
+});
+
+// Click Hamburger
+const menuNavbar = document.querySelector(".col-navbar");
+
+Hamburger.addEventListener("click", () => {
+  menuNavbar.classList.toggle("active");
 });
